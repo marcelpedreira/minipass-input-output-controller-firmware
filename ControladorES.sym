@@ -1,0 +1,235 @@
+004     @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     seconds
+029     minutes
+02A     hours
+02B     date
+02C     mounth
+02D     year_high
+02E     year_low
+02F     rs232_errors
+030.0   modbus_serial_new
+031     modbus_serial_state
+032-033 modbus_serial_crc
+034     @TRIS_C
+035-036 address
+037-038 access_address
+039     access_event_count
+03A-059 mbus_data
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07F     @INTERRUPT_AREA
+098     TXSTA
+098.1   TRMT
+09C.6   C1OUT
+09C.7   C2OUT
+0A0-0E3 modbus_rx
+0E4     MAIN.i
+0E5-0E6 MAIN.out_register
+0E7     MAIN.in_state
+0E8.0   MAIN.action
+0E9     regist_data.index
+0E9     conf_data.index
+0E9     real_time.day
+0E9     modbus_exception_rsp.address
+0E9     rtc_init.minutes
+0E9     MAIN.@SCRATCH1
+0EA     modbus_read_holding_registers_rsp.address
+0EA     regist_data.offset
+0EA     conf_data.offset
+0EA     rtc_init.hours
+0EA     modbus_read_input_registers_rsp.address
+0EA-0EB modbus_exception_rsp.func
+0EA     real_time.@SCRATCH1
+0EA     MAIN.@SCRATCH2
+0EB     rtc_init.date
+0EB     conf_data.high
+0EB     modbus_read_holding_registers_rsp.byte_count
+0EB     modbus_read_input_registers_rsp.byte_count
+0EB     modbus_write_single_coil_rsp.address
+0EB     regist_data.high
+0EB     MAIN.@SCRATCH3
+0EC-0ED modbus_read_holding_registers_rsp.reg_data
+0EC-0ED complement.value
+0EC     regist_data.low
+0EC-0ED modbus_read_input_registers_rsp.input_data
+0EC     conf_data.low
+0EC     rtc_init.month
+0EC     modbus_exception_rsp.error
+0EC-0ED modbus_write_single_coil_rsp.output_address
+0EC     MAIN.@SCRATCH4
+0ED     modbus_write_multiple_registers_rsp.address
+0ED     conf_data.i
+0ED     rtc_init.year
+0ED     regist_data.i
+0ED     modbus_exception_rsp.@SCRATCH1
+0EE-0EF modbus_write_multiple_registers_rsp.start_address
+0EE     modbus_read_holding_registers_rsp.i
+0EE     dec_to_bcd.dec
+0EE     modbus_read_input_registers_rsp.i
+0EE     complement.i
+0EE-0EF modbus_write_single_coil_rsp.output_value
+0EE     modbus_exception_rsp.@SCRATCH2
+0EE     rtc_init.@SCRATCH1
+0EE     regist_data.@SCRATCH1
+0EE     conf_data.@SCRATCH1
+0EF     dec_to_bcd.@SCRATCH1
+0EF     regist_data.@SCRATCH2
+0EF     conf_data.@SCRATCH2
+0FF     @INTERRUPT_AREA
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+110-111 modbus_write_multiple_registers_rsp.quantity
+110     @DIV88.P1
+110     @I2C_READ_1.P2
+110     @I2C_WRITE_1.P3
+110     modbus_read_holding_registers_rsp.@SCRATCH1
+110     modbus_read_input_registers_rsp.@SCRATCH1
+110     modbus_write_single_coil_rsp.@SCRATCH1
+111     @DIV88.P1
+111     bcd_to_dec.bcd
+111     modbus_read_holding_registers_rsp.@SCRATCH2
+111     modbus_read_input_registers_rsp.@SCRATCH2
+111     @I2C_READ_1.@SCRATCH1
+112     modbus_serial_send_start.to
+112     modbus_serial_send_stop.crc_low
+112     bcd_to_dec.varia
+112     modbus_read_holding_registers_rsp.@SCRATCH3
+112     modbus_read_input_registers_rsp.@SCRATCH3
+112     modbus_write_multiple_registers_rsp.@SCRATCH1
+112     @I2C_READ_1.@SCRATCH2
+112     @DIV88.@SCRATCH1
+113     modbus_serial_send_start.func
+113     modbus_serial_send_stop.crc_high
+113     bcd_to_dec.@SCRATCH1
+114     modbus_serial_putc.c
+119     incomming_modbus_serial.c
+11A     modbus_enable_timeout.enable
+11A     modbus_calc_crc.data
+11A     incomming_modbus_serial.@SCRATCH1
+11B     modbus_calc_crc.uIndex
+11B     incomming_modbus_serial.@SCRATCH2
+17F     @INTERRUPT_AREA
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+47F     @INTERRUPT_AREA
+4FF     @INTERRUPT_AREA
+57F     @INTERRUPT_AREA
+5FF     @INTERRUPT_AREA
+67F     @INTERRUPT_AREA
+6FF     @INTERRUPT_AREA
+77F     @INTERRUPT_AREA
+7FF     @INTERRUPT_AREA
+87F     @INTERRUPT_AREA
+8FF     @INTERRUPT_AREA
+97F     @INTERRUPT_AREA
+9FF     @INTERRUPT_AREA
+A7F     @INTERRUPT_AREA
+AFF     @INTERRUPT_AREA
+B7F     @INTERRUPT_AREA
+BFF     @INTERRUPT_AREA
+C7F     @INTERRUPT_AREA
+CFF     @INTERRUPT_AREA
+D7F     @INTERRUPT_AREA
+DFF     @INTERRUPT_AREA
+E7F     @INTERRUPT_AREA
+EFF     @INTERRUPT_AREA
+F7F     @INTERRUPT_AREA
+FFF     @INTERRUPT_AREA
+
+ROM Allocation:
+0351  complement
+02F4  in_out_init
+0277  @GETCH_BIU_1
+003A  modbus_auchCRCHi
+0141  modbus_auchCRCLo
+02DC  RCV_ON
+02E5  modbus_init
+0248  modbus_enable_timeout
+0258  modbus_timeout_now
+0282  modbus_calc_crc
+0443  modbus_serial_putc
+0294  incomming_modbus_serial
+045A  modbus_serial_send_start
+0470  modbus_serial_send_stop
+033D  modbus_kbhit
+0CAD  modbus_read_holding_registers_rsp
+0D14  modbus_read_input_registers_rsp
+0C62  modbus_write_single_coil_rsp
+0DE9  modbus_write_multiple_registers_rsp
+0E26  modbus_exception_rsp
+03E1  @I2C_READ_1
+0395  @I2C_WRITE_1
+050C  dec_to_bcd
+04F5  @DIV88
+042E  bcd_to_dec
+0528  rtc_init
+0AD1  real_time
+04BE  regist_data
+048D  conf_data
+0304  clean_registers
+0800  MAIN
+0800  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Marcel\Maestria\MyThesis\Proyectos\Micro\ControladorES\
+
+Project Files:
+    ControladorES.c
+    C:\Archivos de programa\PICC\devices\16F877A.h
+    C:\Archivos de programa\PICC\drivers\in_out.c
+    C:\Archivos de programa\PICC\drivers\modbus.c
+    C:\Archivos de programa\PICC\drivers\EEPROMmemory.c
+    C:\Archivos de programa\PICC\drivers\rtcDS1307.c
+
+Units:
+    D:\Marcel\Maestria\MyThesis\Proyectos\Micro\ControladorES\ControladorES (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+    Predefined symbols:
+       #define __DEBUG 1
+       #define __16F877A TRUE
+
+Output Files:
+    Errors:      ControladorES.err
+    Ext Symbols: ControladorES.esym
+    INHX8:       ControladorES.hex
+    Symbols:     ControladorES.sym
+    List:        ControladorES.lst
+    Debug/COFF:  ControladorES.cof
+    Project:     ControladorES.PJT
+    Call Tree:   ControladorES.tre
+    Statistics:  ControladorES.sta

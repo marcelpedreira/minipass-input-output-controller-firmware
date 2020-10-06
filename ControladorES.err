@@ -1,0 +1,4 @@
+>>> Warning 216 "ControladorES.c" Line 193(0,1): Interrupts disabled during call to prevent re-entrancy:  (modbus_calc_crc)
+>>> Warning 202 "C:\Archivos de programa\PICC\drivers\modbus.c" Line 238(8,11): Variable never used:   rs232_errors
+      Memory usage:   ROM=39%      RAM=38% - 43%
+      0 Errors,  2 Warnings.

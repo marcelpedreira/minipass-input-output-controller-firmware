@@ -1,0 +1,650 @@
+D G "__PCM__" 0 0 ""4.119""
+D G "__DEVICE__" 0 0 ""
+D G "__DATE__" 0 0 ""11-ene-14""
+D G "__TIME__" 0 0 ""16:17:45""
+D G "__DEBUG" 0 0 "1"
+D G "__16F877A" 0 0 "TRUE" "Standard Header file for the PIC16F877A device ////////////////"
+d G "PIN_A0" 1 19 "40"
+d G "PIN_A1" 1 20 "41"
+d G "PIN_A2" 1 21 "42"
+d G "PIN_A3" 1 22 "43"
+d G "PIN_A4" 1 23 "44"
+d G "PIN_A5" 1 24 "45"
+d G "PIN_B0" 1 26 "48"
+d G "PIN_B1" 1 27 "49"
+d G "PIN_B2" 1 28 "50"
+d G "PIN_B3" 1 29 "51"
+d G "PIN_B4" 1 30 "52"
+d G "PIN_B5" 1 31 "53"
+d G "PIN_B6" 1 32 "54"
+d G "PIN_B7" 1 33 "55"
+d G "PIN_C0" 1 35 "56"
+d G "PIN_C1" 1 36 "57"
+d G "PIN_C2" 1 37 "58"
+d G "PIN_C3" 1 38 "59"
+d G "PIN_C4" 1 39 "60"
+d G "PIN_C5" 1 40 "61"
+d G "PIN_C6" 1 41 "62"
+d G "PIN_C7" 1 42 "63"
+d G "PIN_D0" 1 44 "64"
+d G "PIN_D1" 1 45 "65"
+d G "PIN_D2" 1 46 "66"
+d G "PIN_D3" 1 47 "67"
+d G "PIN_D4" 1 48 "68"
+d G "PIN_D5" 1 49 "69"
+d G "PIN_D6" 1 50 "70"
+d G "PIN_D7" 1 51 "71"
+d G "PIN_E0" 1 53 "72"
+d G "PIN_E1" 1 54 "73"
+d G "PIN_E2" 1 55 "74"
+d G "FALSE" 1 58 "0"
+d G "TRUE" 1 59 "1"
+d G "BYTE" 1 61 "int8"
+d G "BOOLEAN" 1 62 "int1"
+d G "getc" 1 64 "getch"
+d G "fgetc" 1 65 "getch"
+d G "getchar" 1 66 "getch"
+d G "putc" 1 67 "putchar"
+d G "fputc" 1 68 "putchar"
+d G "fgets" 1 69 "gets"
+d G "fputs" 1 70 "puts"
+d G "WDT_FROM_SLEEP" 1 75 "3"
+d G "WDT_TIMEOUT" 1 76 "11"
+d G "MCLR_FROM_SLEEP" 1 77 "19"
+d G "MCLR_FROM_RUN" 1 78 "27"
+d G "NORMAL_POWER_UP" 1 79 "25"
+d G "BROWNOUT_RESTART" 1 80 "26"
+d G "T0_INTERNAL" 1 88 "0"
+d G "T0_EXT_L_TO_H" 1 89 "32"
+d G "T0_EXT_H_TO_L" 1 90 "48"
+d G "T0_DIV_1" 1 92 "8"
+d G "T0_DIV_2" 1 93 "0"
+d G "T0_DIV_4" 1 94 "1"
+d G "T0_DIV_8" 1 95 "2"
+d G "T0_DIV_16" 1 96 "3"
+d G "T0_DIV_32" 1 97 "4"
+d G "T0_DIV_64" 1 98 "5"
+d G "T0_DIV_128" 1 99 "6"
+d G "T0_DIV_256" 1 100 "7"
+d G "T0_8_BIT" 1 103 "0"
+d G "RTCC_INTERNAL" 1 105 "0" "The following are provided for compatibility"
+d G "RTCC_EXT_L_TO_H" 1 106 "32" "with older compiler versions"
+d G "RTCC_EXT_H_TO_L" 1 107 "48"
+d G "RTCC_DIV_1" 1 108 "8"
+d G "RTCC_DIV_2" 1 109 "0"
+d G "RTCC_DIV_4" 1 110 "1"
+d G "RTCC_DIV_8" 1 111 "2"
+d G "RTCC_DIV_16" 1 112 "3"
+d G "RTCC_DIV_32" 1 113 "4"
+d G "RTCC_DIV_64" 1 114 "5"
+d G "RTCC_DIV_128" 1 115 "6"
+d G "RTCC_DIV_256" 1 116 "7"
+d G "RTCC_8_BIT" 1 117 "0"
+d G "WDT_18MS" 1 129 "8"
+d G "WDT_36MS" 1 130 "9"
+d G "WDT_72MS" 1 131 "10"
+d G "WDT_144MS" 1 132 "11"
+d G "WDT_288MS" 1 133 "12"
+d G "WDT_576MS" 1 134 "13"
+d G "WDT_1152MS" 1 135 "14"
+d G "WDT_2304MS" 1 136 "15"
+d G "T1_DISABLED" 1 142 "0"
+d G "T1_INTERNAL" 1 143 "0x85"
+d G "T1_EXTERNAL" 1 144 "0x87"
+d G "T1_EXTERNAL_SYNC" 1 145 "0x83"
+d G "T1_CLK_OUT" 1 147 "8"
+d G "T1_DIV_BY_1" 1 149 "0"
+d G "T1_DIV_BY_2" 1 150 "0x10"
+d G "T1_DIV_BY_4" 1 151 "0x20"
+d G "T1_DIV_BY_8" 1 152 "0x30"
+d G "T2_DISABLED" 1 157 "0"
+d G "T2_DIV_BY_1" 1 158 "4"
+d G "T2_DIV_BY_4" 1 159 "5"
+d G "T2_DIV_BY_16" 1 160 "6"
+d G "CCP_OFF" 1 166 "0"
+d G "CCP_CAPTURE_FE" 1 167 "4"
+d G "CCP_CAPTURE_RE" 1 168 "5"
+d G "CCP_CAPTURE_DIV_4" 1 169 "6"
+d G "CCP_CAPTURE_DIV_16" 1 170 "7"
+d G "CCP_COMPARE_SET_ON_MATCH" 1 171 "8"
+d G "CCP_COMPARE_CLR_ON_MATCH" 1 172 "9"
+d G "CCP_COMPARE_INT" 1 173 "0xA"
+d G "CCP_COMPARE_RESET_TIMER" 1 174 "0xB"
+d G "CCP_PWM" 1 175 "0xC"
+d G "CCP_PWM_PLUS_1" 1 176 "0x1c"
+d G "CCP_PWM_PLUS_2" 1 177 "0x2c"
+d G "CCP_PWM_PLUS_3" 1 178 "0x3c"
+d G "PSP_ENABLED" 1 190 "0x10"
+d G "PSP_DISABLED" 1 191 "0"
+d G "SPI_MASTER" 1 198 "0x20"
+d G "SPI_SLAVE" 1 199 "0x24"
+d G "SPI_SCK_IDLE_HIGH" 1 200 "0x10"
+d G "SPI_SCK_IDLE_LOW" 1 201 "0x00"
+d G "SPI_CLK_DIV_4" 1 202 "0x00"
+d G "SPI_CLK_DIV_16" 1 203 "0x01"
+d G "SPI_CLK_DIV_64" 1 204 "0x02"
+d G "SPI_CLK_T2" 1 205 "0x03"
+d G "SPI_SS_DISABLED" 1 206 "0x01"
+d G "SPI_XMIT_L_TO_H" 1 208 "0x4000"
+d G "SPI_XMIT_H_TO_L" 1 209 "0x0000"
+d G "SPI_SAMPLE_AT_MIDDLE" 1 211 "0x0000"
+d G "SPI_SAMPLE_AT_END" 1 212 "0x8000"
+d G "SPI_L_TO_H" 1 215 "SPI_SCK_IDLE_LOW"
+d G "SPI_H_TO_L" 1 216 "SPI_SCK_IDLE_HIGH"
+d G "UART_ADDRESS" 1 222 "2"
+d G "UART_DATA" 1 223 "4"
+d G "A0_A3_A1_A3" 1 227 "0xfff04"
+d G "A0_A3_A1_A2_OUT_ON_A4_A5" 1 228 "0xfcf03"
+d G "A0_A3_A1_A3_OUT_ON_A4_A5" 1 229 "0xbcf05"
+d G "NC_NC_NC_NC" 1 230 "0x0ff07"
+d G "A0_A3_A1_A2" 1 231 "0xfff02"
+d G "A0_A3_NC_NC_OUT_ON_A4" 1 232 "0x9ef01"
+d G "A0_VR_A1_VR" 1 233 "0x3ff06"
+d G "A3_VR_A2_VR" 1 234 "0xcff0e"
+d G "CP1_INVERT" 1 235 "0x0000010"
+d G "CP2_INVERT" 1 236 "0x0000020"
+d G "VREF_LOW" 1 244 "0xa0"
+d G "VREF_HIGH" 1 245 "0x80"
+d G "VREF_A2" 1 247 "0x40"
+d G "ADC_OFF" 1 255 "0" "ADC Off"
+d G "ADC_CLOCK_DIV_2" 1 256 "0x10000"
+d G "ADC_CLOCK_DIV_4" 1 257 "0x4000"
+d G "ADC_CLOCK_DIV_8" 1 258 "0x0040"
+d G "ADC_CLOCK_DIV_16" 1 259 "0x4040"
+d G "ADC_CLOCK_DIV_32" 1 260 "0x0080"
+d G "ADC_CLOCK_DIV_64" 1 261 "0x4080"
+d G "ADC_CLOCK_INTERNAL" 1 262 "0x00c0" "Internal 2-6us"
+d G "NO_ANALOGS" 1 265 "7" "None"
+d G "ALL_ANALOG" 1 266 "0" "A0 A1 A2 A3 A5 E0 E1 E2"
+d G "AN0_AN1_AN2_AN4_AN5_AN6_AN7_VSS_VREF" 1 267 "1" "A0 A1 A2 A5 E0 E1 E2 VRefh=A3"
+d G "AN0_AN1_AN2_AN3_AN4" 1 268 "2" "A0 A1 A2 A3 A5"
+d G "AN0_AN1_AN2_AN4_VSS_VREF" 1 269 "3" "A0 A1 A2 A4 VRefh=A3"
+d G "AN0_AN1_AN3" 1 270 "4" "A0 A1 A3"
+d G "AN0_AN1_VSS_VREF" 1 271 "5" "A0 A1 VRefh=A3"
+d G "AN0_AN1_AN4_AN5_AN6_AN7_VREF_VREF" 1 272 "0x08" "A0 A1 A5 E0 E1 E2 VRefh=A3 VRefl=A2"
+d G "AN0_AN1_AN2_AN3_AN4_AN5" 1 273 "0x09" "A0 A1 A2 A3 A5 E0"
+d G "AN0_AN1_AN2_AN4_AN5_VSS_VREF" 1 274 "0x0A" "A0 A1 A2 A5 E0 VRefh=A3"
+d G "AN0_AN1_AN4_AN5_VREF_VREF" 1 275 "0x0B" "A0 A1 A5 E0 VRefh=A3 VRefl=A2"
+d G "AN0_AN1_AN4_VREF_VREF" 1 276 "0x0C" "A0 A1 A4 VRefh=A3 VRefl=A2"
+d G "AN0_AN1_VREF_VREF" 1 277 "0x0D" "A0 A1 VRefh=A3 VRefl=A2"
+d G "AN0" 1 278 "0x0E" "A0"
+d G "AN0_VREF_VREF" 1 279 "0x0F" "A0 VRefh=A3 VRefl=A2"
+d G "ANALOG_RA3_REF" 1 280 "0x1" "!old only provided for compatibility"
+d G "A_ANALOG" 1 281 "0x2" "!old only provided for compatibility"
+d G "A_ANALOG_RA3_REF" 1 282 "0x3" "!old only provided for compatibility"
+d G "RA0_RA1_RA3_ANALOG" 1 283 "0x4" "!old only provided for compatibility"
+d G "RA0_RA1_ANALOG_RA3_REF" 1 284 "0x5" "!old only provided for compatibility"
+d G "ANALOG_RA3_RA2_REF" 1 285 "0x8" "!old only provided for compatibility"
+d G "ANALOG_NOT_RE1_RE2" 1 286 "0x9" "!old only provided for compatibility"
+d G "ANALOG_NOT_RE1_RE2_REF_RA3" 1 287 "0xA" "!old only provided for compatibility"
+d G "ANALOG_NOT_RE1_RE2_REF_RA3_RA2" 1 288 "0xB" "!old only provided for compatibility"
+d G "A_ANALOG_RA3_RA2_REF" 1 289 "0xC" "!old only provided for compatibility"
+d G "RA0_RA1_ANALOG_RA3_RA2_REF" 1 290 "0xD" "!old only provided for compatibility"
+d G "RA0_ANALOG" 1 291 "0xE" "!old only provided for compatibility"
+d G "RA0_ANALOG_RA3_RA2_REF" 1 292 "0xF" "!old only provided for compatibility"
+d G "ADC_START_AND_READ" 1 295 "7" "This is the default if nothing is specified"
+d G "ADC_START_ONLY" 1 296 "1"
+d G "ADC_READ_ONLY" 1 297 "6"
+d G "L_TO_H" 1 305 "0x40"
+d G "H_TO_L" 1 306 "0"
+d G "GLOBAL" 1 308 "0x0BC0"
+d G "PERIPH" 1 309 "0x0B40"
+d G "INT_RTCC" 1 310 "0x000B20"
+d G "INT_RB" 1 311 "0x00FF0B08"
+d G "INT_EXT_L2H" 1 312 "0x50000B10"
+d G "INT_EXT_H2L" 1 313 "0x60000B10"
+d G "INT_EXT" 1 314 "0x000B10"
+d G "INT_AD" 1 315 "0x008C40"
+d G "INT_TBE" 1 316 "0x008C10"
+d G "INT_RDA" 1 317 "0x008C20"
+d G "INT_TIMER1" 1 318 "0x008C01"
+d G "INT_TIMER2" 1 319 "0x008C02"
+d G "INT_CCP1" 1 320 "0x008C04"
+d G "INT_CCP2" 1 321 "0x008D01"
+d G "INT_SSP" 1 322 "0x008C08"
+d G "INT_PSP" 1 323 "0x008C80"
+d G "INT_BUSCOL" 1 324 "0x008D08"
+d G "INT_EEPROM" 1 325 "0x008D10"
+d G "INT_TIMER0" 1 326 "0x000B20"
+d G "INT_COMP" 1 327 "0x008D40"
+D G "eeprom_address" 0 8 "long int"
+D G "MODBUS_TYPE" 0 9 "MODBUS_TYPE_SLAVE"
+D G "MODBUS_SERIAL_TYPE" 0 10 "MODBUS_RTU" "use MODBUS_ASCII for ASCII mode"
+D G "MODBUS_SERIAL_RX_BUFFER_SIZE" 0 11 "64"
+D G "MODBUS_SERIAL_BAUD" 0 12 "9600"
+D G "MODBUS_SERIAL_INT_SOURCE" 0 13 "MODBUS_INT_RDA"
+D G "MODBUS_ADDRESS" 0 14 "3"
+D G "use_low_in" 0 15 "TRUE"
+V G "seconds" 0 18 "int8"
+V G "minutes" 0 19 "int8"
+V G "hours" 0 20 "int8"
+V G "date" 0 21 "int8"
+V G "mounth" 0 22 "int8"
+V G "year_high" 0 23 "int8"
+V G "year_low" 0 24 "int8" "in_out.c                                    ////"
+C L "complement" 2 3 36 "FUNCTION"
+V L "value" 2 42 "int16"
+F G "complement" 2 42 "int16(int16 value)"
+V L "i" 2 44 "int8"
+D G "inport_lenght" 2 55 "8"
+D G "set_tris_inport" 2 56 "() set_tris_b(0xFF)"
+D G "set_tris_outport" 2 57 "() set_tris_d(0)"
+D G "inport" 2 61 "() make8(complement(make16(0, input_b())), 0)"
+D G "outport" 2 64 "(x) output_d(make8(x, 0))"
+F G "in_out_init" 2 102 "void()"
+D G "MODBUS_TYPE_MASTER" 3 187 "99999"
+D G "MODBUS_TYPE_SLAVE" 3 188 "88888"
+D G "MODBUS_INT_RDA" 3 189 "77777"
+D G "MODBUS_INT_RDA2" 3 190 "66666"
+D G "MODBUS_INT_RDA3" 3 191 "44444"
+D G "MODBUS_INT_RDA4" 3 192 "33333"
+D G "MODBUS_INT_EXT" 3 193 "55555"
+D G "MODBUS_RTU" 3 194 "1"
+D G "MODBUS_ASCII" 3 195 "2"
+D G "MODBUS_SERIAL_RX_PIN" 3 214 "PIN_C7" "Data receive pin"
+D G "MODBUS_SERIAL_TX_PIN" 3 218 "PIN_C6" "Data transmit pin"
+D G "MODBUS_SERIAL_ENABLE_PIN" 3 222 "0" "Controls DE pin.  RX low, TX high."
+D G "MODBUS_SERIAL_RX_ENABLE" 3 226 "0" "Controls RE pin.  Should keep low."
+D G "MODBUS_SERIAL_TIMEOUT" 3 233 "10000" "in us"
+D G "RCV_OFF" 3 239 "() {disable_interrupts(INT_RDA);}"
+D G "WAIT_FOR_HW_BUFFER" 3 308 "() {    while(!TRMT); }"
+V G "modbus_serial_new" 3 314 "int1"
+E G "ILLEGAL_FUNCTION" 3 324 "1"
+E G "ILLEGAL_DATA_ADDRESS" 3 325 "2"
+E G "ILLEGAL_DATA_VALUE" 3 325 "3"
+E G "SLAVE_DEVICE_FAILURE" 3 325 "4"
+E G "ACKNOWLEDGE" 3 325 "5"
+E G "SLAVE_DEVICE_BUSY" 3 326 "6"
+E G "MEMORY_PARITY_ERROR" 3 326 "8"
+E G "GATEWAY_PATH_UNAVAILABLE" 3 326 "10"
+E G "GATEWAY_TARGET_NO_RESPONSE" 3 327 "11"
+E G "TIMEOUT" 3 327 "12"
+T G "exception" 3 327 "_exception" "These functions are defined in the MODBUS protocol.  These can be"
+E G "FUNC_READ_COILS" 3 334 "1"
+E G "FUNC_READ_DISCRETE_INPUT" 3 335 "2"
+E G "FUNC_READ_HOLDING_REGISTERS" 3 335 "3"
+E G "FUNC_READ_INPUT_REGISTERS" 3 336 "4"
+E G "FUNC_WRITE_SINGLE_COIL" 3 336 "5"
+E G "FUNC_WRITE_SINGLE_REGISTER" 3 337 "6"
+E G "FUNC_READ_EXCEPTION_STATUS" 3 337 "7"
+E G "FUNC_DIAGNOSTICS" 3 338 "8"
+E G "FUNC_GET_COMM_EVENT_COUNTER" 3 338 "11"
+E G "FUNC_GET_COMM_EVENT_LOG" 3 339 "12"
+E G "FUNC_WRITE_MULTIPLE_COILS" 3 339 "15"
+E G "FUNC_WRITE_MULTIPLE_REGISTERS" 3 340 "16"
+E G "FUNC_REPORT_SLAVE_ID" 3 340 "17"
+E G "FUNC_READ_FILE_RECORD" 3 341 "20"
+E G "FUNC_WRITE_FILE_RECORD" 3 341 "21"
+E G "FUNC_MASK_WRITE_REGISTER" 3 342 "22"
+E G "FUNC_READ_WRITE_MULTIPLE_REGISTERS" 3 342 "23"
+E G "FUNC_READ_FIFO_QUEUE" 3 342 "24"
+T G "function" 3 342 "_function" "Stages of MODBUS reception.  Used to keep our ISR fast enough.*"
+E G "MODBUS_GETADDY" 3 348 "0"
+E G "MODBUS_GETFUNC" 3 348 "1"
+E G "MODBUS_GETDATA" 3 348 "2"
+V G "modbus_serial_state" 3 348 ""
+V G "modbus_serial_crc" 3 359 "{int8[2] b,int16 d}" "Our receive struct.  This is used when receiving data as a master or"
+V G "modbus_rx" 3 375 "{int8 address,int8 len,function func,exception error,int8[64] data}" "Table of CRC values for high–order byte *"
+V G "modbus_auchCRCHi" 3 379 "int8[1]"
+V G "modbus_auchCRCLo" 3 401 "int8[1]"
+C L "RCV_ON" 3 2 3 "FUNCTION"
+F G "RCV_ON" 3 426 "void()"
+C L "modbus_init" 3 2 4 "FUNCTION"
+F G "modbus_init" 3 478 "void()"
+C L "modbus_init" 3 2 1 "FUNCTION"
+V L "enable" 3 502 "int8"
+F G "modbus_enable_timeout" 3 502 "void(int8 enable)"
+F G "modbus_timeout_now" 3 519 "void()"
+C L "modbus_calc_crc" 3 2 3 "FUNCTION"
+V L "data" 3 538 "int8"
+F G "modbus_calc_crc" 3 538 "void(int8 data)"
+V L "uIndex" 3 543 "int8" "will index into CRC lookup table"
+C L "modbus_calc_crc" 3 2 1 "FUNCTION"
+C L "modbus_serial_putc" 3 2 3 "FUNCTION"
+V L "c" 3 554 "int8"
+F G "modbus_serial_putc" 3 554 "void(int8 c)"
+C L "modbus_serial_putc" 3 2 1 "FUNCTION"
+F G "incomming_modbus_serial" 3 599 "void()"
+V L "c" 3 600 "int8"
+C L "modbus_serial_send_start" 3 2 8 "FUNCTION"
+V L "to" 3 744 "int8"
+V L "func" 3 744 "int8"
+F G "modbus_serial_send_start" 3 744 "void(int8 to,int8 func)"
+C L "modbus_serial_send_start" 3 2 1 "FUNCTION"
+F G "modbus_serial_send_stop" 3 769 "void()"
+V L "crc_low" 3 787 "int8"
+V L "crc_high" 3 787 "int8"
+C L "modbus_serial_send_stop" 3 2 1 "FUNCTION"
+C L "modbus_kbhit" 3 2 5 "FUNCTION"
+F G "modbus_kbhit" 3 822 "int8()"
+C L "modbus_kbhit" 3 2 1 "FUNCTION"
+C L "modbus_kbhit" 3 2 1 "FUNCTION"
+T G "modbus_read_sub_request_rsp" 3 1364 "{int8 record_length,int8 reference_type,int16[29] data}"
+T G "modbus_write_sub_request_rsp" 3 1373 "{int8 reference_type,int16 file_number,int16 record_number,int16 record_length,int16[24] data}" "The following slave functions are defined in the MODBUS protocol."
+C L "modbus_read_coils_rsp" 3 2 8 "FUNCTION"
+V L "address" 3 1390 "int8"
+V L "byte_count" 3 1390 "int8"
+V L "coil_data" 3 1390 "*int8"
+F G "modbus_read_coils_rsp" 3 1390 "void(int8 address,int8 byte_count,*int8 coil_data)"
+V L "i" 3 1392 "int8"
+C L "modbus_read_discrete_input_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1414 "int8"
+V L "byte_count" 3 1414 "int8"
+V L "input_data" 3 1415 "*int8"
+F G "modbus_read_discrete_input_rsp" 3 1415 "void(int8 address,int8 byte_count,*int8 input_data)"
+V L "i" 3 1417 "int8"
+C L "modbus_read_holding_registers_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1439 "int8"
+V L "byte_count" 3 1439 "int8"
+V L "reg_data" 3 1440 "*int16"
+F G "modbus_read_holding_registers_rsp" 3 1440 "void(int8 address,int8 byte_count,*int16 reg_data)"
+V L "i" 3 1442 "int8"
+C L "modbus_read_input_registers_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1465 "int8"
+V L "byte_count" 3 1465 "int8"
+V L "input_data" 3 1466 "*int16"
+F G "modbus_read_input_registers_rsp" 3 1466 "void(int8 address,int8 byte_count,*int16 input_data)"
+V L "i" 3 1468 "int8"
+C L "modbus_write_single_coil_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1491 "int8"
+V L "output_address" 3 1491 "int16"
+V L "output_value" 3 1492 "int16"
+F G "modbus_write_single_coil_rsp" 3 1492 "void(int8 address,int16 output_address,int16 output_value)"
+C L "modbus_write_single_register_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1512 "int8"
+V L "reg_address" 3 1512 "int16"
+V L "reg_value" 3 1513 "int16"
+F G "modbus_write_single_register_rsp" 3 1513 "void(int8 address,int16 reg_address,int16 reg_value)"
+C L "modbus_read_exception_status_rsp" 3 2 3 "FUNCTION"
+V L "address" 3 1531 "int8"
+V L "data" 3 1531 "int8"
+F G "modbus_read_exception_status_rsp" 3 1531 "void(int8 address,int8 data)"
+C L "modbus_diagnostics_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1544 "int8"
+V L "sub_func" 3 1544 "int16"
+V L "data" 3 1544 "int16"
+F G "modbus_diagnostics_rsp" 3 1544 "void(int8 address,int16 sub_func,int16 data)"
+C L "modbus_get_comm_event_counter_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1564 "int8"
+V L "status" 3 1564 "int16"
+V L "event_count" 3 1565 "int16"
+F G "modbus_get_comm_event_counter_rsp" 3 1565 "void(int8 address,int16 status,int16 event_count)"
+C L "modbus_get_comm_event_log_rsp" 3 2 8 "FUNCTION"
+V L "address" 3 1588 "int8"
+V L "status" 3 1588 "int16"
+V L "event_count" 3 1589 "int16"
+V L "message_count" 3 1589 "int16"
+V L "events" 3 1590 "*int8"
+V L "events_len" 3 1590 "int8"
+F G "modbus_get_comm_event_log_rsp" 3 1590 "void(int8 address,int16 status,int16 event_count,int16 message_count,*int8 events,int8 events_len)"
+V L "i" 3 1592 "int8"
+C L "modbus_write_multiple_coils_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1623 "int8"
+V L "start_address" 3 1623 "int16"
+V L "quantity" 3 1624 "int16"
+F G "modbus_write_multiple_coils_rsp" 3 1624 "void(int8 address,int16 start_address,int16 quantity)"
+C L "modbus_write_multiple_registers_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1644 "int8"
+V L "start_address" 3 1644 "int16"
+V L "quantity" 3 1645 "int16"
+F G "modbus_write_multiple_registers_rsp" 3 1645 "void(int8 address,int16 start_address,int16 quantity)"
+C L "modbus_report_slave_id_rsp" 3 2 7 "FUNCTION"
+V L "address" 3 1667 "int8"
+V L "slave_id" 3 1667 "int8"
+V L "run_status" 3 1667 "int8"
+V L "data" 3 1668 "*int8"
+V L "data_len" 3 1668 "int8"
+F G "modbus_report_slave_id_rsp" 3 1668 "void(int8 address,int8 slave_id,int8 run_status,*int8 data,int8 data_len)"
+V L "i" 3 1670 "int8"
+C L "modbus_read_file_record_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1698 "int8"
+V L "byte_count" 3 1698 "int8"
+V L "request" 3 1699 "*modbus_read_sub_request_rsp"
+F G "modbus_read_file_record_rsp" 3 1699 "void(int8 address,int8 byte_count,*modbus_read_sub_request_rsp request)"
+V L "i" 3 1701 "int8"
+V L "j" 3 1701 "int8"
+C L "modbus_write_file_record_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1732 "int8"
+V L "byte_count" 3 1732 "int8"
+V L "request" 3 1733 "*modbus_write_sub_request_rsp"
+F G "modbus_write_file_record_rsp" 3 1733 "void(int8 address,int8 byte_count,*modbus_write_sub_request_rsp request)"
+V L "i" 3 1735 "int8"
+V L "j" 3 1735 "int8"
+C L "modbus_mask_write_register_rsp" 3 2 6 "FUNCTION"
+V L "address" 3 1769 "int8"
+V L "reference_address" 3 1769 "int16"
+V L "AND_mask" 3 1770 "int16"
+V L "OR_mask" 3 1770 "int16"
+F G "modbus_mask_write_register_rsp" 3 1770 "void(int8 address,int16 reference_address,int16 AND_mask,int16 OR_mask)"
+C L "modbus_read_write_multiple_registers_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1793 "int8"
+V L "data_len" 3 1793 "int8"
+V L "data" 3 1794 "*int16"
+F G "modbus_read_write_multiple_registers_rsp" 3 1794 "void(int8 address,int8 data_len,*int16 data)"
+V L "i" 3 1796 "int8"
+C L "modbus_read_FIFO_queue_rsp" 3 2 5 "FUNCTION"
+V L "address" 3 1818 "int8"
+V L "FIFO_len" 3 1818 "int16"
+V L "data" 3 1818 "*int16"
+F G "modbus_read_FIFO_queue_rsp" 3 1818 "void(int8 address,int16 FIFO_len,*int16 data)"
+V L "i" 3 1820 "int8"
+V L "byte_count" 3 1821 "int16"
+V L "address" 3 1842 "int8"
+V L "func" 3 1842 "int16"
+V L "error" 3 1842 "exception"
+F G "modbus_exception_rsp" 3 1842 "void(int8 address,int16 func,exception error)"
+D G "write_white_memory" 4 2 "(address, data) write_eeprom(address, data)"
+D G "read_white_memory" 4 3 "(address) read_eeprom(address)"
+D G "write_regist_memory" 4 4 "(address, data) write_eeprom(address + 0x80, data)"
+D G "read_regist_memory" 4 5 "(address, data) read_eeprom(address + 0x80)"
+C L "dec_to_bcd" 4 16 17 "FUNCTION"
+C L "dec_to_bcd" 5 2 10 "FUNCTION"
+V L "dec" 5 19 "int8"
+F G "dec_to_bcd" 5 19 "int8(int8 dec)"
+V L "bcd" 5 24 "int8"
+F G "bcd_to_dec" 5 24 "int8(int8 bcd)"
+V L "varia" 5 26 "int8"
+V L "minutes" 5 33 "int8"
+V L "hours" 5 33 "int8"
+V L "date" 5 33 "int8"
+V L "month" 5 33 "int8"
+V L "year" 5 33 "int8"
+F G "rtc_init" 5 33 "void(int8 minutes,int8 hours,int8 date,int8 month,int8 year)"
+C L "rtc_init" 5 2 1 "FUNCTION"
+C L "rtc_init" 5 2 1 "FUNCTION"
+C L "rtc_init" 5 2 3 "FUNCTION"
+V L "seconds" 5 51 "int8"
+V L "minutes" 5 51 "int8"
+V L "hours" 5 51 "int8"
+V L "date" 5 51 "int8"
+V L "month" 5 51 "int8"
+V L "year" 5 51 "int8"
+F G "real_time" 5 51 "void(int8 seconds,int8 minutes,int8 hours,int8 date,int8 month,int8 year)" "void real_time()"
+C L "real_time" 5 2 1 "FUNCTION"
+V L "day" 5 55 "int8"
+C L "real_time" 5 2 1 "FUNCTION"
+C L "real_time" 5 2 1 "FUNCTION"
+C L "real_time" 5 2 2 "FUNCTION"
+C L "real_time" 5 2 1 "FUNCTION"
+C L "real_time" 5 2 1 "FUNCTION"
+C L "real_time" 5 2 1 "FUNCTION"
+C L "real_time" 5 2 1 "FUNCTION"
+C L "real_time" 5 2 1 "FUNCTION"
+C L "real_time" 5 2 1 "FUNCTION"
+C L "real_time" 5 2 1 "FUNCTION"
+C L "real_time" 5 2 1 "FUNCTION"
+C L "real_time" 5 2 1 "FUNCTION"
+V G "address" 0 31 "int16"
+V G "access_address" 0 32 "int16"
+V G "access_event_count" 0 33 "int8"
+V G "mbus_data" 0 34 "int16[16]" "Funcion que obtiene la direccion en la red del controlador seteada a traves de jumpers"
+F G "get_modbus_address" 0 37 "int8()"
+V L "temp" 0 39 "int8"
+C L "regist_data" 0 32 1 "FUNCTION"
+V L "index" 0 45 "int8"
+V L "offset" 0 45 "int8"
+F G "regist_data" 0 45 "void(int8 index,int8 offset)"
+V L "high" 0 47 "int8"
+V L "low" 0 47 "int8"
+V L "i" 0 47 "int8"
+C L "conf_data" 0 32 1 "FUNCTION"
+V L "index" 0 58 "int8"
+V L "offset" 0 58 "int8"
+F G "conf_data" 0 58 "void(int8 index,int8 offset)"
+V L "high" 0 60 "int8"
+V L "low" 0 60 "int8"
+V L "i" 0 60 "int8"
+C L "clean_registers" 0 32 1 "FUNCTION"
+F G "clean_registers" 0 71 "void()"
+F G "MAIN" 0 79 "void()"
+V L "i" 0 84 "int8"
+V L "out_register" 0 85 "int16"
+V L "in_state" 0 86 "int8"
+V L "action" 0 87 "int1"
+C L "MAIN" 0 32 11 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+C L "MAIN" 0 32 2 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+C L "MAIN" 0 32 1 "FUNCTION"
+F B "reset_cpu" 0 0
+F B "abs" 1 0
+F B "sleep" 0 0
+F B "delay_cycles" 1 0
+F B "read_bank" 2 0
+F B "write_bank" 3 0
+F B "shift_left" 2 2
+F B "shift_right" 2 2
+F B "rotate_left" 2 0
+F B "rotate_right" 2 0
+F B "_mul" 2 0
+F B "memset" 3 0
+F B "isamoung" 2 0
+F B "isamong" 2 0
+F B "bit_set" 2 0
+F B "bit_clear" 2 0
+F B "bit_test" 2 0
+F B "toupper" 1 0
+F B "tolower" 1 0
+F B "swap" 1 0
+F B "printf" 1 255
+F B "fprintf" 1 255
+F B "sprintf" 1 255
+F B "make8" 2 0
+F B "make16" 2 0
+F B "make32" 1 255
+F B "label_address" 1 1
+F B "goto_address" 1 0
+F B "_va_arg" 1 0
+F B "offsetofbit" 2 2
+F B "enable_interrupts" 1 0
+F B "disable_interrupts" 1 0
+F B "interrupt_active" 1 0
+F B "clear_interrupt" 1 0
+F B "jump_to_isr" 1 0
+F B "ext_int_edge" 1 2
+F B "read_eeprom" 1 0
+F B "write_eeprom" 2 0
+F B "read_program_eeprom" 1 0
+F B "write_program_eeprom" 2 0
+F B "write_program_memory" 4 0
+F B "write_program_memory8" 4 0
+F B "read_program_memory" 4 0
+F B "read_program_memory8" 4 0
+F B "strcpy" 2 0
+F B "memcpy" 3 0
+F B "strstr100" 2 0
+F B "output_high" 1 0
+F B "output_low" 1 0
+F B "input" 1 0
+F B "input_state" 1 0
+F B "output_float" 1 0
+F B "output_drive" 1 0
+F B "output_bit" 1 1
+F B "output_toggle" 1 0
+F B "output_a" 1 0
+F B "output_b" 1 0
+F B "output_c" 1 0
+F B "output_d" 1 0
+F B "output_e" 1 0
+F B "input_a" 0 0
+F B "input_b" 0 0
+F B "input_c" 0 0
+F B "input_d" 0 0
+F B "input_e" 0 0
+F B "set_tris_a" 1 0
+F B "set_tris_b" 1 0
+F B "set_tris_c" 1 0
+F B "set_tris_d" 1 0
+F B "set_tris_e" 1 0
+F B "get_tris_a" 0 0
+F B "get_tris_b" 0 0
+F B "get_tris_c" 0 0
+F B "get_tris_d" 0 0
+F B "get_tris_e" 0 0
+F B "input_change_a" 0 0
+F B "input_change_b" 0 0
+F B "input_change_c" 0 0
+F B "input_change_d" 0 0
+F B "input_change_e" 0 0
+F B "port_b_pullups" 1 0
+F B "setup_counters" 2 0
+F B "setup_wdt" 1 0
+F B "restart_cause" 0 0
+F B "restart_wdt" 0 0
+F B "get_rtcc" 0 0
+F B "set_rtcc" 1 0
+F B "get_timer0" 0 0
+F B "set_timer0" 1 0
+F B "setup_comparator" 1 0
+F B "setup_port_a" 1 2
+F B "setup_adc_ports" 1 2
+F B "setup_adc" 1 0
+F B "set_adc_channel" 1 0
+F B "read_adc" 0 1
+F B "adc_done" 0 0
+F B "setup_timer_0" 1 0
+F B "setup_vref" 1 0
+F B "setup_timer_1" 1 0
+F B "get_timer1" 0 0
+F B "set_timer1" 1 0
+F B "setup_timer_2" 3 0
+F B "get_timer2" 0 0
+F B "set_timer2" 1 0
+F B "setup_ccp1" 1 0
+F B "set_pwm1_duty" 1 0
+F B "setup_ccp2" 1 0
+F B "set_pwm2_duty" 1 0
+F B "setup_psp" 1 0
+F B "psp_output_full" 0 0
+F B "psp_input_full" 0 0
+F B "psp_overflow" 0 0
+F B "setup_spi" 1 0
+F B "spi_read" 0 1
+F B "spi_write" 1 0
+F B "spi_data_is_in" 0 0
+F B "setup_spi2" 1 0
+F B "spi_read2" 0 1
+F B "spi_write2" 1 0
+F B "spi_data_is_in2" 0 0
+F B "delay_ms" 1 0
+F B "delay_us" 1 0
+F B "putchar" 1 2
+F B "puts" 1 2
+F B "getch" 0 1
+F B "gets" 1 3
+F B "kbhit" 0 1
+F B "set_uart_speed" 1 3
+F B "setup_uart" 1 3
+F B "i2c_read" 0 2
+F B "i2c_write" 1 2
+F B "i2c_start" 0 2
+F B "i2c_stop" 0 1
+F B "i2c_isr_state" 0 1
